@@ -1,0 +1,31 @@
+﻿body {
+}
+.verticleBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+    /*position: fixed; /* Make it stick, even on scroll */
+}
+.verticleBar li {
+    list-style: none; /* Remove the bullets */
+}
+.verticleBar li a {
+    display: block;
+    padding: 15px;
+}
+li a:hover {
+    background-color: chocolate; /* Changes the background color of the tab on hover */
+    color: white;  /* Color of the text on hover */
+}
+.active {
+    background-color: #4CAF50;  /* Changes the color of the selected tab*/
+}
+.servHeading {
+    font-style: oblique;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
